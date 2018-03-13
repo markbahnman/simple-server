@@ -1,0 +1,19 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "A simple server which serves as an endpoint to receive requests.",
+  "main": "index.js",
+  "author": "Mark Bahnman <mark.bahnman@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "micro": "^9.1.4"
+  },
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev -p 3001"
+  },
+  "devDependencies": {
+    "micro-dev": "^2.2.0"
+  }
+}
